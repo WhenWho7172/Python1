@@ -10,7 +10,6 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 import numpy as np
-from streamlit_player import st_player
 import re
 import matplotlib.pyplot as plt
 import pydeck as pdk
@@ -62,9 +61,6 @@ def page0(df):  # Home page
         'Within this assignment, we are expected to develop an interactive data-driven Python-based web application. This application represents a culmination of topics learned throughout this course in spring 2022. The dataset chosen for this project is Uber for its variety of data on ride fares, pick up and drop off locations, and the number of passengers per ride.')
     st.write('\n')
     st.subheader('Not familiar with Uber? Get started with the video below!')
-    st.write('\n')
-
-    st_player("https://www.youtube.com/watch?v=tQlgavP5cmo")
     st.write('\n')
 
     st.subheader('Stay Connected')
